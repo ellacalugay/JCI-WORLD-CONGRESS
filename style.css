@@ -180,6 +180,19 @@ body {
     box-shadow: 0 4px 12px rgba(244, 67, 54, 0.4);
 }
 
+.view-all-btn {
+    padding: 20px 35px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px rgba(244, 67, 54, 0.3);
+    transition: all 0.3s ease;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .title {
