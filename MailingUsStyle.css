@@ -1,0 +1,80 @@
+/* General page styling */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('pictures/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+/* Centered form container */
+
+.container {
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+/* Input fields */
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+
+/* Send button */
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #e94b2f;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c63e28;
+}
+
+
+/* Popup styling */
+
+#popupMessage {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#popupMessage h2 {
+    margin-bottom: 10px;
+}
+
+#popupMessage button {
+    background-color: #007b83;
+    width: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
