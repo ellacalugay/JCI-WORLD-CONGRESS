@@ -1,0 +1,191 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* Event Card Styling*/
+
+.register-event-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border: 0.1px solid rgb(138, 134, 134);
+    max-width: 600px;
+}
+
+.register-event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px
+}
+
+.register-event-left {
+    flex: 1;
+    text-align: left;
+}
+
+.register-event-logo {
+    width: 150px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.badge {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.register-event-lead {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0 0 5px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.register-event-title {
+    font-size: 1.8rem;
+    color: #0f7dc8;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Event Details Section */
+.register-event-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.register-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.register-detail-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.location-icon { color: #4caf50; }
+.calendar-icon { color: #00bcd4; }
+.time-icon { color: #ff9800; }
+.people-icon { color: #9c27b0; }
+
+/* Participants and spots Styling */
+.spots-available {
+    color: #d65151;
+    font-weight: bold;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    min-width: 160px;
+}
+
+.days-left {
+    background-color: #00bcd4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 26px;
+}
+
+.particpants-info {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #00bcd4;
+}
+
+/* Price and Spots Left below the card section */
+.price-spots-info {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.price-textinfo {
+    font-size: 18px;
+    color: #38a169;
+    margin-bottom: 8px;
+}
+
+.spots-textinfo {
+    font-size: 15px;
+    color: #00bcd4;
+    margin-bottom: 8px;
+}
+
+.price-info {
+    color: #38a169;
+    font-weight: bold;
+}
+
+.spots-info {
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+/* Register Event Button */
+.register-event-button {
+    background-color: #ef4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(239, 68, 68, 0.3);
+}
+
+.register-event-button:hover {
+    background-color: #dc2626; /* red-600 */
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+.register-event-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
+}
+
+/* Responsive Design */
