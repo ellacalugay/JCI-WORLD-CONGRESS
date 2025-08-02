@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -5,6 +10,9 @@ body {
     background-color: #f0f2f5;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .page-header {
@@ -21,7 +29,8 @@ body {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 20px auto;
+    text-align: center;
     border: 0.1px solid rgb(138, 134, 134);
     max-width: 600px;
 }
@@ -111,8 +120,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 15px;
-    min-width: 160px;
 }
 
 .days-left {
@@ -137,7 +144,7 @@ body {
 .price-spots-info {
     width: 100%;
     max-width: 800px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -145,12 +152,14 @@ body {
     font-size: 18px;
     color: #38a169;
     margin-bottom: 8px;
+    margin-left: 65px;
 }
 
 .spots-textinfo {
     font-size: 15px;
     color: #00bcd4;
     margin-bottom: 8px;
+    margin-left: 65px;
 }
 
 .price-info {
@@ -160,25 +169,26 @@ body {
 
 .spots-info {
     color: #00bcd4;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 /* Register Event Button */
 .register-event-button {
     background-color: #ef4444;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 8px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
     box-shadow: 0 4px 6px rgba(239, 68, 68, 0.3);
+    display: inline-block;
 }
 
 .register-event-button:hover {
-    background-color: #dc2626; /* red-600 */
+    background-color: #dc2626;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
 }
