@@ -14,6 +14,7 @@ body {
     text-align: left;
 }
 
+
 /* Event Card Styling*/
 
 .register-event-card {
@@ -21,7 +22,8 @@ body {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 20px auto;
+    text-align: center;
     border: 0.1px solid rgb(138, 134, 134);
     max-width: 600px;
 }
@@ -30,7 +32,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 30px
+    gap: 30px;
+    text-align: center;
 }
 
 .register-event-left {
@@ -71,7 +74,9 @@ body {
     text-align: left;
 }
 
+
 /* Event Details Section */
+
 .register-event-details {
     display: flex;
     flex-direction: column;
@@ -96,12 +101,25 @@ body {
     font-size: 16px;
 }
 
-.location-icon { color: #4caf50; }
-.calendar-icon { color: #00bcd4; }
-.time-icon { color: #ff9800; }
-.people-icon { color: #9c27b0; }
+.location-icon {
+    color: #4caf50;
+}
+
+.calendar-icon {
+    color: #00bcd4;
+}
+
+.time-icon {
+    color: #ff9800;
+}
+
+.people-icon {
+    color: #9c27b0;
+}
+
 
 /* Participants and spots Styling */
+
 .spots-available {
     color: #d65151;
     font-weight: bold;
@@ -133,11 +151,13 @@ body {
     color: #00bcd4;
 }
 
+
 /* Price and Spots Left below the card section */
+
 .price-spots-info {
     width: 100%;
     max-width: 800px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -145,6 +165,7 @@ body {
     font-size: 18px;
     color: #38a169;
     margin-bottom: 8px;
+    margin-left: 35px;
 }
 
 .spots-textinfo {
@@ -163,7 +184,9 @@ body {
     font-weight: bold;
 }
 
+
 /* Register Event Button */
+
 .register-event-button {
     background-color: #ef4444;
     color: white;
@@ -178,7 +201,8 @@ body {
 }
 
 .register-event-button:hover {
-    background-color: #dc2626; /* red-600 */
+    background-color: #dc2626;
+    /* red-600 */
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
 }
@@ -187,5 +211,6 @@ body {
     transform: translateY(0);
     box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
 }
+
 
 /* Responsive Design */
