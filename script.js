@@ -32,7 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const cards = Array.from(document.querySelectorAll(".event-card-highlight"));
 
     const parseEventDate = (card) => {
-      const dateText = card.querySelector(".calendar-icon + span")?.textContent.trim();
+    const detailItems = card.querySelectorAll(".detail-item");
+    const dateText = detailItems[1]?.querySelector("span")?.textContent.trim();
       return new Date(dateText);
     };
 
