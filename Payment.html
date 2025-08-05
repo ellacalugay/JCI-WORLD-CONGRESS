@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
+    <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="paymentStyle.css" />
 </head>
 
@@ -13,91 +14,130 @@
             <div class="confirmation-card-header">
                 <div class="confirmation-card-left">
                     <span class="confirmation-info-header">Clark Rising: National-Building Through Action</span>
-                    <div class="special-request">special request</div>
+                    <div class="special-request">special request
+                </div>
 
-                        <div class="price-details-container">
-                            <div class="price-details">Price Details</div>
-                            <div class="confirmation-left">
-                                <div class="price-details-reg">
-                                    <span>Event Registration x1</span>
-                                    <span class="price-details-reg-info">$300.00</span>
-                                </div>
-                                <div class="price-details-reg">
-                                    <span>Service Fee</span>
-                                    <span class="price-details-reg-info">$6.92</span>
-                                </div>
-                                <div class="price-details-reg">
-                                    <span>Taxes</span>
-                                    <span class="price-details-reg-info">$8.92</span>
-                                </div>
-                                <div class="line"></div>
-                            
-                                <div class="total-container">
-                                    <span class="total">Total (USD)</span>
-                                    <span class="total-info">$315.84</span>
-                                </div>
-                                <div class="line"></div>
-
-                                <div class="due-container">
-                                    <span class="due">Due Now</span>
-                                    <span class="due-info">$315.84</span>
-                                </div>
-                            </div>    
-                        </div>
-
-                    <div class="payment-option">choose your payment option</div>
-                    
-                    <div class="payment-container">
-                        <div class="pay-with-wire-header">
-                            <img src="pictures/bank-transfer.png" alt="Wire Icon" class="payment-logo" />
-                            <span class="pay-with-wire">Pay with Wire</span>
-                        </div>
-
-                            <div class="pay-with-wire-info">
-                                If you have paid via bank transfer, please notify our team by clicking the "Notify" button below or by contacting us at
-                                <span class="email">registration@worldcongress.com</span>
-                            </div>
-
-                        <div class="bank-header">
-                            <img src="pictures/swift.png" alt="Bank Information" class="payment-logo-bank" />
-                            <span class="pay-with-wire"> Bank Information</span>
-                        </div>
-
-                            <div class="bank-info">
-                                SWIFT Code
-                                <div class="swift-code-info">UBPHPHMM</div>
-                                <div class="line-payment"></div>
-                            
-                                Bank address
-                                <div class="swift-code-info">UnionBank Plaza, Meralco Ave cor. Onyx Rd, Ortigas Center, Pasig City, 1605 Metro Manila, Philippines</div>
-                                <div class="line-payment"></div>
-                            </div>
-                        
-                        <div style="margin-left: 16px" class="pay-with-wire">Beneficiary Information</div>
-                            
-                            <div style="margin-top: 10px" class="bank-info">
-                                Bank Name
-                                <div class="swift-code-info">UnionBank of the Philippines</div>
-                                <div class="line-payment"></div>
-
-                                Bank Account Number
-                                <div class="swift-code-info">001-123456789</div>
-                                <div class="line-payment"></div>
-
-                                Bank Account Name
-                                <div class="swift-code-info">WorldCon Philippines Events Inc.</div>
-                                <div style="margin-bottom: 35px" class="line-payment"></div>
-                            </div>
-                    </div>
-                    
-                    <div class="button-style">
-                        <a href="ConfirmationEvent2.html">
-                            <button class="register-event-button"> Pay </button>
-                        </a>
-                    </div>    
+    <div class="price-details-container">
+        <div class="price-details">Price Details</div>
+            <div class="confirmation-left">
+                <div class="price-details-reg">
+                    <span>Event Registration x1</span>
+                    <span class="price-details-reg-info">$300.00</span>
+                </div>
+                <div class="price-details-reg">
+                    <span>Service Fee</span>
+                    <span class="price-details-reg-info">$6.92</span>
+                </div>
+                <div class="price-details-reg">
+                    <span>Taxes</span>
+                    <span class="price-details-reg-info">$8.92</span>
+                </div>
+                <div class="line"></div>
+                <div class="total-container">
+                    <span class="total">Total (USD)</span>
+                    <span class="total-info">$315.84</span>
+                </div>
+                <div class="line"></div>
+                <div class="due-container">
+                    <span class="due">Due Now</span>
+                    <span class="due-info">$315.84</span>
                 </div>
             </div>
         </div>
+        <div class="payment-option">Choose Your Payment Option</div>
+        <div class="payment-methods">
+            <div class="payment-methods payment-grid">
+                <!-- Card 1: BPI -->
+                <div class="payment-card bpi-card selected">
+                    <div class="card-header">
+                        <div class="payment-logo bpi-logo">
+                            <img src="pictures/bpi.png" alt="BPI Logo" class="bpi-logo-img">
+                        </div>
+                        <span class="payment-text">BPI <br> ****134</span>
+                        <div class="card-icons">
+                            <img src="pictures/atm1.png" alt="Visa" class="card-icon-img">
+                            <img src="pictures/atm2.png" alt="Mastercard" class="card-icon-img">
+                            <img src="pictures/atm3.png" alt="Amex" class="card-icon-img">
+                            <img src="pictures/atm4.png" alt="Discover" class="card-icon-img">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: GCash -->
+                <div class="payment-card gcash-card">
+                    <div class="card-header">
+                        <div class="payment-logo gcash-logo">
+                            <img src="pictures/gcash.png" alt="GCash Logo" class="gcash-icon" />
+                        </div>
+                        <span class="payment-text">Pay with GCash</span>
+                    </div>
+                    <div class="card-description">Pay directly using your GCash App</div>
+                </div>
+
+                <!-- Card 3: Maya -->
+                <div class="payment-card maya-card">
+                    <div class="card-header">
+                        <div class="payment-logo maya">
+                            <img src="pictures/maya.png" alt="Maya Logo" class="maya-icon" />
+                        </div>
+                        <span class="payment-text">Pay with Maya</span>
+                    </div>
+                    <div class="card-description">Send payment via Maya Wallet</div>
+                </div>
+            </div>
+
+        
+    <div class="wire-container">
+        <div class="wire-transfer-section">
+            <div class="header">
+                <div class="wire-icon">
+                    <img src="pictures/bank.png" alt="Wire Icon" width="24" height="24">
+                </div>
+                <p class="payment-text">Pay with Wire</p>
+            </div>
+            <p class="wire-note"> If you have paid via bank transfer, please notify our team by clicking the "Notify" button below or by contacting us at 
+                <a href="mailto:registration@worldcongress2026.com">registration@worldcongress2026.com</a>
+            </p>
+                <div class="section-header">
+                    <div class="bank-icon">
+                        <img src="pictures/swift.png" alt="Swift Icon" width="24" height="24">
+                    </div>
+                    <p class="payment-text">Bank Information<p>
+                </div>
+
+                <div class="info-field">
+                    <label>SWIFT Code</label>
+                    <div class="info-value">UBPHPHMM</div>
+                </div>
+
+                <div class="info-field">
+                    <label>Bank address</label>
+                    <div class="info-value">UnionBank Plaza, Meralco Ave cor. Onyx Rd. Ortigas Center, Pasig City, 1605 Metro Manila, Philippines</div>
+                </div>
+
+                <p class="beneficiary-title">Beneficiary Information</p>
+
+                <div class="info-field">
+                    <label>Bank Name</label>
+                    <div class="info-value">UnionBank of the Philippines</div>
+                </div>
+
+                <div class="info-field">
+                    <label>Bank Account Number</label>
+                    <div class="info-value">001-123456789</div>
+                </div>
+
+                <div class="info-field">
+                    <label>Bank Account Name</label>
+                    <div class="info-value">WorldCon Philippines Events Inc.</div>
+                </div>
+        </div>
+
+        <div class="pay-button-container">
+            <button class="pay-btn">Pay</button>
+        </div>
     </div>
+
+
 </body>
 </html>
