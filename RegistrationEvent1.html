@@ -10,9 +10,10 @@
 <body>
     <!-- Back Menu-->
     <header class="page-header">
-        <a href="index.html" class="back-link">
-            &larr; Event Registration
-        </a>
+        <div class="back-container">
+            <img src="pictures/arrow.png" alt="Back" class="back-arrow" onclick="window.location.href='index.html'" />
+            <a href="index.html" class="back-link">Event Registration</a>
+        </div>
     </header>
 
     <div class="main-content-wrapper">
@@ -25,22 +26,22 @@
 
                     <div class="register-event-details">
                         <div class="register-detail-item">
-                            <div class="register-detail-icon location-icon">📍</div>
+                            <img src="pictures/location.png" alt="Location Icon" class="register-detail-icon" />
                             <span>Clark Polytechnic Conference Hall</span>
                         </div>
 
                         <div class="register-detail-item">
-                            <div class="register-detail-icon calendar-icon">📅</div>
+                            <img src="pictures/Group.png" alt="Group Icon" class="register-detail-icon" />
                             <span>November 15, 2026</span>
                         </div>
 
                         <div class="register-detail-item">
-                            <div class="register-detail-icon time-icon">🕐</div>
+                            <img src="pictures/time.png" alt="Time Icon" class="register-detail-icon" />
                             <span>1:00 PM to 3:00 PM</span>
                         </div>
 
                         <div class="register-detail-item">
-                            <div class="register-detail-icon people-icon">👥</div>
+                            <img src="pictures/people.png" alt="People Icon" class="register-detail-icon" />
                             <span>352 Participants | <span class="spots-available">31 Spots Available</span></span>
                         </div>
                     </div>
@@ -69,6 +70,5 @@
         </div>
     </div>
 
-</script>
 </body>
 </html>
