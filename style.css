@@ -485,3 +485,15 @@ body {
 .sort-button:hover {
   background-color: #00a8cc;
 }
+
+.back-arrow {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.sort-button img.vector {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
