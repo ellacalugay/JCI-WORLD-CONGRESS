@@ -171,10 +171,14 @@ body {
 
 .event-title {
     font-size: 20px;
-    color: #0f5373;
+    color: #202020;
     margin: 0 0 20px 0;
     font-weight: bold;
     text-align: left;
+}
+
+.event-card-highlight:hover .event-title {
+    color: #0f5373;
 }
 
 .event-details {
