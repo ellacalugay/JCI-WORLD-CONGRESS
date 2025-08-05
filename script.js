@@ -23,3 +23,32 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sortButton = document.querySelector(".sort-button");
+  const eventsSection = document.querySelector(".events-section");
+
+  sortButton.addEventListener("click", () => {
+    const cards = Array.from(document.querySelectorAll(".event-card-highlight"));
+
+    const parseEventDate = (card) => {
+      const dateText = card.querySelector(".calendar-icon + span")?.textContent.trim();
+      return new Date(dateText);
+    };
+
+    const sortedCards = cards.sort((a, b) => {
+      const dateA = parseEventDate(a);
+      const dateB = parseEventDate(b);
+      return dateA - dateB;
+    });
+
+    // Clear and re-append sorted cards
+    eventsSection.innerHTML = "";
+    sortedCards.forEach(card => {
+      const container = document.createElement("div");
+      container.classList.add("event-container");
+      container.appendChild(card);
+      eventsSection.appendChild(container);
+    });
+  });
+});
