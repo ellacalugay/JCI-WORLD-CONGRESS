@@ -1,0 +1,277 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 30px 0;
+}
+
+.confirmation-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px
+}
+
+.confirmation-card-left {
+    flex: 1;
+    text-align: left;
+}
+
+.confirmation-info-header {
+    background-color: rgb(235, 233, 233);
+    color: black;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.special-request {
+    color: #097482;
+    text-align: left;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0 15px;
+    text-transform: uppercase;
+}
+
+.line {
+    border-bottom: 1.3px solid #b1b0b0;
+    margin: 5px 10px;
+    padding-top: 10px;
+}
+
+/* Price Details Info */
+.price-details-container {
+    background-color: rgb(244, 243, 243);
+    border-radius: 5px;
+    border: 1px solid rgb(214, 212, 212);
+}
+
+.price-details {
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.confirmation-left {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.price-details-reg {
+    color: rgb(103, 103, 103);
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.price-details-reg-info {
+    color: rgb(55, 55, 55);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 80px;
+    min-width: 120px;
+}
+
+/* Total Info */
+.total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.total {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.total-info {
+    color: rgb(55, 55, 55);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 100px;
+    padding-left: 80px;
+    width: 110px;
+}
+
+/* Due Info */
+.due-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.due {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.due-info {
+    color: rgb(55, 55, 55);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 100px;
+    padding-left: 80px;
+    width: 110px;
+}
+
+/* Payment Option */
+.payment-option {
+    color: #097482;
+    text-align: left;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0 15px;
+    text-transform: uppercase;
+}
+
+/* Other Payment Info */
+.payment-container {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(214, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+/* Pay with Wire */
+.payment-logo {
+    width: 25px;
+    height: 15px;
+}
+
+.pay-with-wire-header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.pay-with-wire {
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pay-with-wire-info {
+    color: rgb(66, 66, 66);
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.email {
+    color: #097482;
+    font-weight: 300;
+}
+
+/* Bank Information */
+.payment-logo-bank {
+    width: 20px;
+    height: 15px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+
+.line-payment {
+    border-bottom: 1.3px solid #b1b0b0;
+    margin: 10px 0 10px 0px;
+    width: 475px;
+}
+
+.bank-header {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.bank-info {
+    color: black;
+    font-size: 13px;
+    margin-left: 17px;
+}
+
+.swift-code-info {
+    color: rgb(66, 66, 66);
+    font-size: 12px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 10px;
+    line-height: 1.3;
+    padding-right: 75px;
+}
+
+/* Register Event Button */
+.register-event-button {
+    background-color: #ef4444;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(239, 68, 68, 0.3);
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.button-style {
+    text-align: center;
+}
+
+.register-event-button:hover {
+    background-color: #dc2626;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+.register-event-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
+}
+
+/* Responsive Design */
