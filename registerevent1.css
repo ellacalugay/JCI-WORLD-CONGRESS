@@ -18,7 +18,7 @@ body {
 
 .back-link {
     text-decoration: none;
-    color: rgb(106, 103, 103);
+    color: rgb(78, 77, 77);
     font-weight: 500;
     font-size: 15px;
     display: inline-block;
@@ -165,7 +165,7 @@ body {
 }
 
 .price-textinfo {
-    font-size: 15px;
+    font-size: 18px;
     color: #38ba75;
     margin-bottom: 2px;
     font-weight: bold;
@@ -180,6 +180,7 @@ body {
 .price-info {
     color: #38ba75;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .spots-info {
