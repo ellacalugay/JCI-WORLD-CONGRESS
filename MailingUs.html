@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- HEADER -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
@@ -8,7 +10,39 @@
     <link rel="stylesheet" href="MailingUsStyle.css">
 </head>
 
+<!-- HEADER BLOCK -->
+<header class="top-header">
+    <div class="header-left">
+        <img src="pictures/logoJCI.png" alt="JCI 2026 Logo" class="header-logo">
+    </div>
+</header>
+
+<!-- MAILING US BUTTON BELOW HEADER -->
+<div class="mailing-container">
+    <a href="index.html" class="mailing-btn">← Mailing Us</a>
+</div>
+
 <body>
+    <!-- LOADING SCREEN -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <img src="pictures/balloon-loading.gif" alt="Loading" class="loading-icon">
+            <p>Sending...</p>
+        </div>
+    </div>
+
+
+    <!-- POP-UP CONFIRMATION -->
+    <div id="popup-container" class="popup-overlay">
+        <div class="popup-box">
+            <img src="pictures/checkmark.gif" alt="Success" class="popup-icon">
+            <h2>Submitted!</h2>
+            <p>Thank you for mailing JCI World Congress 2026!<br> We've received your information and will be in touch soon..</p>
+            <button id="ok-button">Okay</button>
+        </div>
+    </div>
+
+
     <div class="container">
         <h2 style="color: #0f5373">Stay Connected</h2>
         <p>We are excited to see you in the Philippines in 2026!</p>
@@ -57,11 +91,29 @@
                     <input type="text" id="JCI" name="JCI" placeholder="JCI Position" required>
                 </div>
             </div>
-            <button type="submit" id="sendBtn">Send</button>
+            <button type="button" id="sendButton">Send</button>
     </div>
     </form>
 
     <script src="MailingUsPopUp.js"></script>
 </body>
+
+<!-- FOOTER BLOCK -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <img src="pictures/logoJCI.png" alt="JCI Logo" class="footer-logo">
+        </div>
+        <div class="footer-right">
+            <h3 style="color: #155776;">Contact</h3>
+            <p style="color: #155776;"><strong>Phone:</strong> +63 912 345 6789</p>
+            <p style="color: #155776;"><strong>Email:</strong> jciworldcon2026@gmail.com</p>
+            <p style="color: #155776;"><strong>Location:</strong> Clark, Pampanga, Philippines</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 JCI World Congress 2026 | All Rights Reserved</p>
+    </div>
+</footer>
 
 </html>
