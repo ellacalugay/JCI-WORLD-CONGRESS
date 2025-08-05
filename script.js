@@ -78,6 +78,7 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 
+//mailing
 document.addEventListener("DOMContentLoaded", function() {
     const sendButton = document.getElementById("sendButton");
     const loadingScreen = document.getElementById("loading-screen");
