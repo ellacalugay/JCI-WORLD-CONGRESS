@@ -16,6 +16,12 @@ body {
     max-width: 800px;
 }
 
+.back-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .back-link {
     text-decoration: none;
     color: rgb(78, 77, 77);
@@ -23,6 +29,14 @@ body {
     font-size: 15px;
     display: inline-block;
     transition: color 0.2s ease;
+}
+
+.back-arrow {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: rgb(78, 77, 77);
+  width: 16px;
+  height: 16px;
 }
 
 .page-header {

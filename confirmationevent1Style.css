@@ -9,6 +9,24 @@ body {
     justify-content: center;
 }
 
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    display: flex;
+    background-image: url('pictures/background.png');
+    background-repeat: repeat;
+    background-size: 500px 200px;
+    background-attachment: fixed;
+    background-position: top left;
+}
+
 .main-content-wrapper {
     display: flex;
     flex-direction: column;
